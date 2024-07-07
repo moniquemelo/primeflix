@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --white-basic: #FFF;
+  --header-background-color: #0d253f;
+  --logo-color: #90cea1;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.app{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
